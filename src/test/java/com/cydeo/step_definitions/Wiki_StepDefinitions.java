@@ -42,7 +42,7 @@ public class Wiki_StepDefinitions {
         Assert.assertTrue(wikipedia.mainHeader.isDisplayed());
 
         Assert.assertTrue(wikipedia.mainHeader.getText().equals(string));
-        //3.06 pm cst
+
 
     }
 }
